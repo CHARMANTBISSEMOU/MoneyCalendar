@@ -4,6 +4,12 @@ Application mobile de gestion de budget personnel, développée avec **Expo SDK 
 
 **MoneyCalendar** aide à suivre dépenses, revenus, prêts, dépenses planifiées et à produire des rapports PDF avec analyse critique assistée par IA.
 
+## 📲 Télécharger l'application
+
+> **[⬇️ Télécharger MoneyCalendar APK (Android)](https://expo.dev/accounts/charmantbissemou/projects/temp_app/builds)**
+>
+> Rendez-vous sur la page des builds Expo, sélectionnez le dernier build **preview** ou **production**, puis téléchargez le fichier `.apk` et installez-le sur votre téléphone Android.
+
 ---
 
 ## Fonctionnalités principales
@@ -180,16 +186,81 @@ Documentation Expo : [docs.expo.dev — SDK 55](https://docs.expo.dev/versions/v
 | Commande | Action |
 |----------|--------|
 | `npm start` | `expo start` (tunnel + port 8081) |
-| `npm run start:lan` | Démarrage en LAN |
-| `npm run start:fresh` | Démarrage avec cache vidé |
+| `npm run build:apk` | Build APK preview via EAS |
+| `npm run build:apk:prod` | Build APK production via EAS |
+| `npm run update` | Envoyer une mise à jour OTA (preview) |
+| `npm run update:prod` | Envoyer une mise à jour OTA (production) |
 | `npm run android` | Ouvre sur Android |
 | `npm run ios` | Ouvre sur iOS |
+
+---
+
+## 🔄 Mises à jour à distance (OTA)
+
+L'application intègre **Expo EAS Update** : les corrections JavaScript sont envoyées à distance sans re-builder l'APK.
+
+### Comment ça marche
+
+1. L'application vérifie automatiquement au démarrage s'il y a une mise à jour disponible.
+2. Si oui, elle la télécharge et propose de redémarrer.
+3. Les utilisateurs reçoivent la correction **sans rien faire**.
+
+### Envoyer une mise à jour
+
+```bash
+# Mise à jour pour les builds preview
+npm run update "description de la correction"
+
+# Mise à jour pour les builds production
+npm run update:prod "description de la correction"
+```
+
+> **Note** : les mises à jour OTA ne fonctionnent que pour le code JavaScript et les assets. Les changements de code natif (nouvelles dépendances, icônes, permissions) nécessitent un nouveau build APK.
 
 ---
 
 ## Catégories par défaut
 
 L’app initialise des catégories courantes : scolarité, alimentation, transport, santé, prêt accordé, remboursement reçu, revenu, épargne, etc. Vous pouvez en ajouter via **Catégories** ou via une suggestion de l’IA.
+
+---
+
+## Installer l’APK (application autonome, pas Expo Go)
+
+> **Expo Go** sert au développement (scanner un QR code).  
+> L’**APK** est l’application installable **MoneyCalendar** sur Android, sans Expo Go.
+
+### Vos références Expo (déjà dans le projet)
+
+| Élément | Valeur |
+|---------|--------|
+| Compte Expo | `charmantbissemou` |
+| Projet EAS | `@charmantbissemou/temp_app` |
+| Project ID | `44b322a4-d69a-47b9-9a91-09e047a710b8` |
+| Package Android | `com.charmantbissemou.moneycalendar` |
+| Profil APK | `preview` dans `eas.json` (`buildType: apk`) |
+
+### Générer l’APK (une fois, sur votre PC)
+
+1. Connecté à Expo (`npx eas-cli whoami` doit afficher votre compte).
+2. **Première fois** : créer le certificat Android (répondre **Oui** quand EAS propose de générer un keystore) :
+
+```bash
+npm run build:apk
+```
+
+3. Attendre la fin du build sur [expo.dev](https://expo.dev) → projet **temp_app** → Builds.
+4. Télécharger le fichier **.apk** et l’installer sur le téléphone (autoriser les sources inconnues si besoin).
+
+### IA dans l’APK
+
+Les clés Groq ne sont pas dans le dépôt Git. Avant le build, configurez-les sur EAS :
+
+```bash
+npx eas-cli env:create --name EXPO_PUBLIC_GROQ_API_KEYS --value "gsk_cle1,gsk_cle2" --environment preview --visibility secret
+```
+
+Puis relancez `npm run build:apk`.
 
 ---
 

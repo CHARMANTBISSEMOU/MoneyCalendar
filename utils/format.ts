@@ -12,9 +12,12 @@ export function formatFCFA(amount: number): string {
 
 export function getMonthsList(): { value: string; label: string; year: number; month: number }[] {
   const months = [];
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth();
   for (let i = -12; i <= 12; i++) {
-    const d = new Date();
-    d.setMonth(d.getMonth() + i);
+    // Always use day 1 to avoid overflow when current day > target month's last day
+    const d = new Date(currentYear, currentMonth + i, 1);
     months.push({
       value: formatMonthKey(d),
       label: formatMonthLabel(d),

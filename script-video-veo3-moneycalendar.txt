@@ -1,0 +1,207 @@
+================================================================================
+MONEYCALLENDAR — SCRIPT VIDÉO PROMO (VEO 3)
+================================================================================
+Durée cible totale : ~80 secondes (10 clips × 8 secondes)
+Public : francophone, budget personnel, FCFA
+Ton voix : dynamique, chaleureux, convaincu — rythme pub mobile
+Cohérence visuelle : même personne (jeune adulte africain·e, tenue sobre violet/blanc),
+même salon lumineux, même téléphone Android. Transitions fluides entre clips.
+
+AVANT TOURNAGE — CAPTURES D’ÉCRAN À PRÉPARER (dans cet ordre) :
+  [C1] Accueil — budget + barre de progression + « Entrées du mois »
+  [C2] Accueil — section « Analyse intelligente » (cartes colorées)
+  [C3] Onglet Money AI — champ vide + sous-titre d’exemple
+  [C4] Money AI — message utilisateur + réponse IA + carte transaction
+  [C5] Money AI — bouton « Confirmer & Enregistrer » + badge enregistré
+  [C6] Accueil — cartes prêts / comportement (si visible)
+  [C7] Onglet Rapports — choix période + mode « Complet »
+  [C8] Rapports — progression « Étape X/5 » ou aperçu PDF
+  [C9] Onglet Dépenses — liste du mois
+  [C10] Logo MoneyCalendar + écran d’accueil plein (fin)
+
+Montage final : assembler clips 1→10, voix off sur chaque segment, fond musical
+lo-fi motivant discret, sous-titres français sur les punchlines clés.
+
+================================================================================
+CLIP 1 / 10 — LA PROBLÉMATIQUE (0:00–0:08)
+================================================================================
+
+CAPTURE D’ÉCRAN : aucune (ou fond flou stress / factures papier — pas l’app)
+
+PROMPT VEO 3 :
+« Plan serré cinématique : jeune professionnel·le assis·e à une table, regarde des
+reçus et son téléphone avec air stressé, lumière naturelle chaude, shallow depth of
+field, style publicité fintech africaine moderne, 4K, pas de texte à l’écran. »
+
+PAROLES (voix off, ~8 s) :
+« Chaque fin de mois, la même question : où est passé mon argent ? Budget flou,
+dépenses oubliées, prêts à la tête du client… »
+
+================================================================================
+CLIP 2 / 10 — LA DOULEUR (0:08–0:16)
+================================================================================
+
+CAPTURE D’ÉCRAN : aucune (même ambiance que clip 1)
+
+PROMPT VEO 3 :
+« Même personnage, gros plan mains qui tapent nerveusement sur un calculatrice et
+des billets FCFA sur la table, ton légèrement sombre puis lumière qui s’ouvre sur
+la fenêtre, mouvement de caméra lent push-in, réalisme, pas de logo. »
+
+PAROLES :
+« Tu notes sur papier, tu perds le fil, et l’argent file sans que tu le voies venir.
+Il te faut une vraie solution, simple, sur ton téléphone. »
+
+================================================================================
+CLIP 3 / 10 — LA SOLUTION : MONEYCALLENDAR (0:16–0:24)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C10] Logo + header violet « MoneyCalendar »
+
+PROMPT VEO 3 :
+« Même personnage maintenant détendu·e, tient un smartphone Android, écran visible
+montrant une app de budget violet et blanc (flou léger sur le texte), sourire de
+soulagement, fond salon lumineux cohérent avec clips précédents, plan medium, style
+pub app mobile premium. »
+
+PAROLES :
+« Découvre MoneyCalendar : ton calendrier d’argent intelligent. Budget, dépenses,
+revenus — tout au même endroit, en français, en FCFA. »
+
+================================================================================
+CLIP 4 / 10 — TABLEAU DE BORD (0:24–0:32)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C1] Accueil budget + entrées du mois
+
+PROMPT VEO 3 :
+« Over-the-shoulder : doigt fait défiler l’écran d’accueil d’une app finance (capture
+écran budget avec barre de progression et montants en FCFA), mouvement fluide,
+reflets réalistes sur verre téléphone, même décor salon, lumière douce. »
+
+PAROLES :
+« En un coup d’œil : ton budget du mois, ce que tu as dépensé, ce qu’il te reste,
+et tes entrées d’argent — clair, sans prise de tête. »
+
+================================================================================
+CLIP 5 / 10 — L’IA : TU ÉCRIS, ELLE FAIT LE RESTE (0:32–0:40)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C3] Money AI vide avec exemples en sous-titre
+
+PROMPT VEO 3 :
+« Gros plan écran téléphone : interface chat « Money AI » fond violet en haut, clavier
+qui s’ouvre, doigt commence à taper, ambiance moderne, même main et même téléphone
+que clips précédents, 4K réaliste. »
+
+PAROLES :
+« Et le game-changer : Money AI. Tu écris un simple message… comme si tu parlais à
+un ami. »
+
+================================================================================
+CLIP 6 / 10 — DÉMO IA (0:40–0:48) ★ MOMENT CLÉ
+================================================================================
+
+CAPTURE D’ÉCRAN : [C4] Message user + réponse IA + carte montant/catégorie
+
+PROMPT VEO 3 :
+« Écran smartphone : conversation IA qui répond, carte transaction apparaît avec
+montant en FCFA et catégorie, doigt hésite puis appuie sur zone de confirmation,
+animation légère satisfaction, même cohérence visuelle salon, plan serré écran. »
+
+PAROLES :
+« « Prêt à Paul cinquante mille » — « Restaurant quinze mille » — l’IA classe,
+calcule, propose… Toi, tu confirmes. Elle fait le reste. »
+
+================================================================================
+CLIP 7 / 10 — ENREGISTRÉ EN UN CLIC (0:48–0:56)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C5] Bouton Confirmer + état Enregistré
+
+PROMPT VEO 3 :
+« Plan serré : pouce appuie sur bouton violet « Confirmer », check vert « Enregistré »,
+personnage en arrière-plan hoche la tête satisfait, sourire, même tenue et décor,
+style publicité app, rythme dynamique. »
+
+PAROLES :
+« Un clic — c’est enregistré. Plus besoin de formulaires interminables : tu écris,
+l’IA organise ton argent pour toi. »
+
+================================================================================
+CLIP 8 / 10 — PRÊTS, PLANIF, COMPORTEMENT (0:56–1:04)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C2] Analyse intelligente OU [C6] prêts/comportement
+
+PROMPT VEO 3 :
+« Split visuel doux : gauche écran app avec alertes colorées analyse budget, droite
+même utilisateur·rice qui explique à un ami sur canapé, geste « regarde », chaleureux,
+cohérence couleurs violet app, transition cross-dissolve. »
+
+PAROLES :
+« Prêts et remboursements suivis : qui a fini sa dette, qui doit encore. Dépenses
+planifiées, alertes, analyse de ton comportement — tu gardes le contrôle. »
+
+================================================================================
+CLIP 9 / 10 — RAPPORTS PRO (1:04–1:12)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C7] + [C8] Rapports / export PDF
+
+PROMPT VEO 3 :
+« Mains tiennent téléphone montrant écran Rapports puis icône partage PDF, particules
+légères « document » qui s’envolent, bureau propre, même identité visuelle personnage,
+lumière optimiste, style success. »
+
+PAROLES :
+« Et pour les rapports ? Export PDF avec analyse critique par IA — comme un audit
+perso de tes finances, en quelques secondes. »
+
+================================================================================
+CLIP 10 / 10 — APPEL À L’ACTION (1:12–1:20)
+================================================================================
+
+CAPTURE D’ÉCRAN : [C10] Logo MoneyCalendar plein écran + [C1] en fondu rapide
+
+PROMPT VEO 3 :
+« Plan hero : smartphone centré affiche logo MoneyCalendar violet, personnage face
+caméra souriant confiant, geste d’invitation « télécharge », fond légèrement flou
+salon doré, texte animé espace réservé pour « Disponible maintenant », fin uplift,
+4K pub. »
+
+PAROLES :
+« MoneyCalendar — écris ton message, l’IA fait le reste. Télécharge l’app, reprends
+le pouvoir sur ton argent. Charleston store — c’est maintenant. »
+
+================================================================================
+BONUS — TEXTE À AFFICHER EN FIN DE MONTAGE (incrustation, pas Veo)
+================================================================================
+  • MoneyCalendar
+  • Tu écris. L’IA fait le reste.
+  • Budget · Prêts · Rapports IA
+  • [Votre lien APK / Play Store / QR code]
+
+================================================================================
+CHECKLIST COHÉRENCE ENTRE CLIPS VEO 3
+================================================================================
+  □ Même acteur·rice (ou même description dans chaque prompt)
+  □ Même pièce / lumière / téléphone
+  □ Mentionner « même décor que clip précédent » dans prompts 4–10
+  □ Captures réelles insérées en picture-in-picture ou remplacement écran en post-prod
+    (Veo génère souvent un faux UI — pour la démo app, privilégier vos [C1]–[C10]
+    montées sur les plans « doigt + téléphone »)
+  □ Voix off enregistrée d’un bloc pour ton homogène, puis découpée par clip
+  □ Musique : un seul morceau sur toute la vidéo, ducking sous la voix
+
+================================================================================
+VERSION COURTE (5 CLIPS = 40 s) — si vous voulez une pub plus rapide
+================================================================================
+  Clip A = Clip 1 (problème) + Clip B = Clip 2 (douleur)
+  Clip C = Clip 5 + 6 fusionnés (IA message → elle fait le reste) [C3][C4]
+  Clip D = Clip 4 (dashboard) [C1]
+  Clip E = Clip 10 (CTA) [C10]
+
+================================================================================
+FIN DU SCRIPT
+================================================================================

@@ -3,8 +3,9 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
-import { Platform } from 'react-native';
+import { Platform, Alert } from 'react-native';
 import 'react-native-reanimated';
+import * as Updates from 'expo-updates';
 import { initDB } from '@/services/db';
 import { log } from '@/utils/logger';
 import Constants from 'expo-constants';
@@ -30,6 +31,22 @@ const AppTheme = {
   },
 };
 
+async function checkForOTAUpdate() {
+  try {
+    const update = await Updates.checkForUpdateAsync();
+    if (update.isAvailable) {
+      await Updates.fetchUpdateAsync();
+      Alert.alert(
+        'Mise à jour disponible',
+        'Une nouvelle version a été téléchargée. L\'application va redémarrer.',
+        [{ text: 'OK', onPress: () => Updates.reloadAsync() }]
+      );
+    }
+  } catch (e) {
+    log.info('Updates', 'Erreur OTA (ignorée en dev)', { error: String(e) });
+  }
+}
+
 export default function RootLayout() {
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
@@ -41,6 +58,11 @@ export default function RootLayout() {
       expoVersion: Constants.expoVersion,
     });
     initDB();
+
+    // Check for OTA updates on startup (only in production builds)
+    if (!__DEV__) {
+      checkForOTAUpdate();
+    }
   }, []);
 
   useEffect(() => {
@@ -59,3 +81,4 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 }
+

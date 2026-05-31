@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "MoneyCalendar",
-    "slug": "moneycalendar",
-    "version": "1.0.0",
+    "slug": "temp_app",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "moneycalendar",
@@ -11,10 +11,17 @@
       "android"
     ],
     "userInterfaceStyle": "automatic",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/44b322a4-d69a-47b9-9a91-09e047a710b8"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,7 +50,8 @@
       "expo-sqlite",
       "expo-image",
       "@react-native-community/datetimepicker",
-      "expo-sharing"
+      "expo-sharing",
+      "expo-updates"
     ],
     "experiments": {
       "typedRoutes": true
